@@ -4,7 +4,7 @@ echo "##############################################"
 echo "##############################################"
 echo "############ Oscam-11725 IPK #################"
 
-wget -O /tmp/enigma2-softcams-oscam-all-images_11.725-emu-r798-arm+mips_all.ipk "https://github.com/karimSATPRO/EMU/raw/main/enigma2-softcams-oscam-all-images_11.725-emu-r798-arm%2Bmips_all.ipk"
+wget -O /tmp/enigma2-plugin-softcams-oscam_11.725-emu-r798_all.ipk "https://github.com/karimSATPRO/EMU/raw/main/enigma2-plugin-softcams-oscam_11.725-emu-r798_all.ipk"
 
 opkg install --force-overwrite /tmp/*.ipk
 
